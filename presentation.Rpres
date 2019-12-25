@@ -91,6 +91,15 @@ print("Average flight time of 144 minutes")
 print("Average distance in kilometers of 823 km")
 ```
 
+Links
+========================================================
+
+```{r, echo=FALSE}
+print("Shinyapps : https://mathismaunick.shinyapps.io/projet_R-master/?fbclid=IwAR0LAbezLiRGOyd95a666izogc10pB5ur_B8KuggKD_s0OJI6gcnXdD8FqY")
+print("Rpubs :http://rpubs.com/clementhbr/562507")
+print("Github : https://github.com/MaxTeiger/shiny-application")
+```
+
 
 
 
