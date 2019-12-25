@@ -1,0 +1,96 @@
+Data Analytics Project
+========================================================
+author: Max TEIGER,     Clément HALBEHER,    Mathis MAUNICK
+date: 2019
+autosize: true
+
+Introduction
+========================================================
+
+This application was developed as part of a data analysis course at ECE Paris.
+we will analyze diiferents aggregations from data of:
+
+- SNCF Train (per year 2015, 2016, 2017, 2018)
+- US flights
+
+
+Trains Data
+========================================================
+
+```{r, echo=FALSE}
+#a <- flights
+trains_df <- read.csv("full_trains.csv", stringsAsFactors = FALSE)
+a<-toString(dim(trains_df))
+
+print(paste0("Numbers of rows and columns : ", a))
+
+print(colnames(trains_df))
+
+```
+
+
+Distribution of causes of delay
+========================================================
+
+```{r, echo=FALSE}
+library(png)
+img <- readPNG('index.png')
+grid::grid.raster(img)
+```
+
+
+Some relevant values
+========================================================
+
+```{r, echo=FALSE}
+print("On all years number of trains : 1492939")
+print("Number of delayed trains at departure :227097")
+print("On average 15 % are late")
+print("17 min is the average time of late trains on departure")
+
+```
+
+
+Plains Data
+========================================================
+
+```{r, echo=FALSE}
+#a <- flights
+flights <- read.csv("flights.csv", stringsAsFactors = FALSE)
+a<-toString(dim(flights))
+
+airports <- read.csv("airports.csv", stringsAsFactors = FALSE)
+b<-toString(dim(airports))
+
+airlines <- read.csv("airlines.csv", stringsAsFactors = FALSE)
+c<-toString(dim(airlines))
+
+print(paste0("Numbers of rows and columns in flights : ", a))
+print(paste0("Numbers of rows and columns in airports : ", b))
+print(paste0("Numbers of rows and columns in airlines : ", c))
+
+
+```
+
+The data is centered on the united states
+========================================================
+
+```{r, echo=FALSE}
+library(png)
+img <- readPNG('pic4.png')
+grid::grid.raster(img)
+```
+
+Some relevant values
+========================================================
+
+```{r, echo=FALSE}
+print("The total of flights is 5000")
+print("a total distance in kilometers of 4114274 km")
+print("Average flight time of 144 minutes")
+print("Average distance in kilometers of 823 km")
+```
+
+
+
+

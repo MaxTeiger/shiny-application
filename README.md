@@ -42,5 +42,5 @@ The application has been designed to study data sets of train journeys, as well 
 3 - Show the same aggregated values per departure airport (LAX, JFK...)
 
 ##### More:
-[Pitch Presentation on RPubs](linkhere)
+[Pitch Presentation on RPubs](http://rpubs.com/clementhbr/562419?fbclid=IwAR12BM8DNvpVOga6iM4yrqv8UmT82sSS2CGOl5dCiesNcOrC_UjBUuuDKCw)
 <br>Shiny App Deployed: [shinyapps.io](https://mathismaunick.shinyapps.io/projet_R-master/?fbclid=IwAR0LAbezLiRGOyd95a666izogc10pB5ur_B8KuggKD_s0OJI6gcnXdD8FqY)
